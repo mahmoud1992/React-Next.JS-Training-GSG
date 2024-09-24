@@ -1,0 +1,60 @@
+/* styles.css */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #c2c2c2;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #000000;
+}
+
+.filter {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.filter select {
+  padding: 10px;
+  font-size: 16px;
+}
+
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.product {
+  background-color: white;
+  border: 1px solid #919191;
+  border-radius: 5px;
+  padding: 20px;
+  text-align: center;
+  width: 200px;
+  box-shadow: 0 2px 5px rgba(177, 177, 177, 0.1);
+  transition: transform 0.2s;
+}
+
+.product:hover {
+  transform: scale(1.05);
+}
+
+.product h2 {
+  font-size: 18px;
+  color: #000000;
+}
+
+.product p {
+  font-size: 16px;
+  color: #000000;
+}
